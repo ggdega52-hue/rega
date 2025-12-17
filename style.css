@@ -1,0 +1,66 @@
+body{
+  background-color: #2D2D2DFC;
+}
+
+.item {
+  background-image: url(фото/zbfon.jpg);
+  color: #FFFFFF;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toggle {
+  background: #ff4d88;
+  border: none;
+  color: white;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 10px;
+  display: none;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.content.active {
+  display: block;
+  opacity: 1;
+}
+
+.zbimg {
+  border:solid 2px #FFFFFF;
+  border-radius: 15px;
+  text-shadow: 0 0 10px #000000;
+}
+
+.ti{ 
+  color: #FFFFFF;
+  text-decoration: none;
+  text-shadow: 0 0 10px #FFFFFF;
+  
+}
+
+.titext {
+  text-shadow: 0 0 10px #000000;
+}
+
+.tis {
+  background-color: #FFAE5FFC;
+  color: #FFFFFFFC;
+  text-decoration: none;
+  padding : 5px 10px;
+  border: solid 1px #FFFFFFFC;
+  border-radius : 15px;
+}
